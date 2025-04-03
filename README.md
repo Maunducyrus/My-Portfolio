@@ -1,5 +1,20 @@
-The essence of my portfolio is to show what i have done so far the projects i have worked on.
+👋 Hi, I'm MAUNDU CYRUS
 
-It showcases my skills and capabilities of what i can do.
+🚀 Portfolio Website
 
->>>>>>>>>>>>>🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳<<<<<<<<<<<<
+🔹 Skills:
+
+    Languages: JavaScript, Python, PHP, HTML/CSS, SQL, Bootstrap, MongoDB
+
+    Frameworks: React, Django.
+
+    Tools: Git, and Github
+
+    Other: Data Visualization, Responsive Design, API Development
+    
+✨ Features of This Portfolio
+
+✅ Responsive Design – Works on mobile, tablet, and desktop
+✅ Modern UI – Clean, interactive, and visually appealing
+✅ Project Showcase – Highlighting my best work
+✅ Contact Form – Easy way to reach out
