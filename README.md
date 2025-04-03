@@ -21,3 +21,17 @@
 ✅ Project Showcase – Highlighting my best work
 
 ✅ Contact Form – Easy way to reach out
+
+📬 Contact Me
+
+📧 Email: maunducyrus123@gmail.com
+
+📧 Email: devsben345@gmail.com
+
+💼 LinkedIn: linkedin.com/in/yourprofile
+
+🐦 Twitter: @yourhandle
+
+🌟 Thanks for visiting!
+
+Feel free to fork, star, or contribute to this repo. Let’s connect!
