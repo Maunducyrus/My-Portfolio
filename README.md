@@ -30,7 +30,7 @@
 
 💼 LinkedIn: www.linkedin.com/in/cyrus-maundu
 
-🐦 Twitter: @yourhandle
+🐦 Twitter: https://x.com/maundu_cyrus
 
 🌟 Thanks for visiting!
 
