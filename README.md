@@ -28,7 +28,7 @@
 
 📧 Email: devsben345@gmail.com
 
-💼 LinkedIn: linkedin.com/in/yourprofile
+💼 LinkedIn: www.linkedin.com/in/cyrus-maundu
 
 🐦 Twitter: @yourhandle
 
