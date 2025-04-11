@@ -29,6 +29,18 @@
   <!-- Load footer -->
   <div id="include-footer"></div>
 
+    <!-- Scripts -->
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        fetch('header.html')
+          .then(res => res.text())
+          .then(data => document.getElementById('include-header').innerHTML = data);
+        fetch('footer.html')
+          .then(res => res.text())
+          .then(data => document.getElementById('include-footer').innerHTML = data);
+      });
+    </script>
+
   <!-- <footer id="footer" class="footer light-background">
     <div class="container">
       <div class="copyright text-center ">
