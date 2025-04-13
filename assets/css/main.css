@@ -73,62 +73,17 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-  /* color: #f5f0f0; */
-  color: #0c5a2cad;
+  color: #8e9494;
   font-size: 49px;
   font-weight: 25px;
 }
 p#intro{
   /* color: #f5f0f0; */
-  color: #2f0707;
+  color: #ffffff;
   font-size: 40px;
-  text-shadow: #6e2a2a 2px;
-  font-weight: 20px;
+  font-weight: 40px;
 
 }
-
-/* PHP Email Form Messages
-/* ------------------------------*/
-/* .php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}  */
-
-/* .php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-} */
-
-/* .php-email-form .loading {
-  display: none;
-  background: var(--surface-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-} */
-
-/* .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
-} */
-
 @keyframes php-email-form-loading {
   0% {
     transform: rotate(0deg);
@@ -1414,11 +1369,4 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
