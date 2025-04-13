@@ -1273,3 +1273,211 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
+
+/* Service cards css */
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #4895ef;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --success: #4cc9f0;
+  --warning: #f72585;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: var(--dark);
+} */
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeIn 1s ease;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--secondary);
+  position: relative;
+  display: inline-block;
+}
+
+/* h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background: var(--warning);
+  border-radius: 2px;
+} */
+
+/* .subtitle {
+  font-size: 1.2rem;
+  color: var(--dark);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+} */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  perspective: 1000px;
+  height: 400px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-front {
+  background: white;
+  color: var(--dark);
+}
+
+.card-back {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+.card-back .icon {
+  color: white;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.card-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.card-back .card-desc {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card:nth-child(1) .card-front {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+}
+
+.card:nth-child(2) .card-front {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.card:nth-child(3) .card-front {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.card:nth-child(4) .card-front {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card:nth-child(5) .card-front {
+  background: linear-gradient(135deg, #a6c1ee 0%, #fbc2eb 100%);
+}
+
+.card:nth-child(6) .card-front {
+  background: linear-gradient(135deg, #fdcbf1 0%, #e6dee9 100%);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+      grid-template-columns: 1fr;
+  }
+  
+  h1 {
+      font-size: 2rem;
+  }
+  
+  .subtitle {
+      font-size: 1rem;
+  }
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background: var(--warning);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 20px rgba(247, 37, 133, 0.4);
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.floating-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(247, 37, 133, 0.6);
+}
