@@ -1316,7 +1316,7 @@ h2 {
   display: inline-block;
 }
 
-/* h1::after {
+/* h2::after {
   content: '';
   position: absolute;
   bottom: -10px;
@@ -1328,13 +1328,13 @@ h2 {
   border-radius: 2px;
 } */
 
-/* .subtitle {
+.subtitle {
   font-size: 1.2rem;
   color: var(--dark);
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
-} */
+}
 
 .cards-container {
   display: grid;
@@ -1342,6 +1342,9 @@ h2 {
   gap: 2rem;
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;           /* Center the container */
+  padding: 2rem;            /* Add space inside the container */
+  box-sizing: border-box;   /* Ensure padding doesn't overflow */
 }
 
 .card {
