@@ -746,6 +746,10 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+.custom-img {
+  height: 310px;
+  width: auto;
+}
 
 /*--------------------------------------------------------------
 # Skills Section
