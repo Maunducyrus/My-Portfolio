@@ -1319,18 +1319,6 @@ h2 {
   display: inline-block;
 }
 
-/* h2::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50%;
-  height: 4px;
-  background: var(--warning);
-  border-radius: 2px;
-} */
-
 .subtitle {
   font-size: 1.2rem;
   color: var(--dark);
