@@ -429,7 +429,7 @@ p#intro{
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--light);
   font-size: 14px;
   padding: 40px 0;
   position: relative;
