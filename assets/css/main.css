@@ -3,6 +3,7 @@
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
+
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -66,7 +67,6 @@ a:hover {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -77,10 +77,16 @@ h6 {
   font-size: 49px;
   font-weight: 25px;
 }
+.cyrus {
+  color: var(--heading-color);
+  font-family: Cura;
+  color: #11f7f7;
+  font-size: 70px;
+  font-weight: 45px;
+}
 p#intro{
-  /* color: #f5f0f0; */
   color: #ffffff;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 40px;
 
 }
@@ -671,6 +677,18 @@ section,
   object-fit: cover;
   z-index: 1;
 }
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2; /* Above image but below content */
+  background: linear-gradient(
+    45deg, 
+    rgba(8, 8, 8, 0.6),  /* Vibrant pink */
+    rgba(30, 61, 70, 0.7)   /* Electric blue */
+  );
+  mix-blend-mode: overlay; /* Creates intense color mixing */
+}
 
 .hero .container {
   position: relative;
@@ -679,7 +697,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
 }
 
