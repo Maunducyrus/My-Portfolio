@@ -653,6 +653,7 @@ section,
   align-items: center;
   justify-content: center;
   height: 500px;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
